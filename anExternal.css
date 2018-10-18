@@ -1,21 +1,74 @@
  body {
-    background-color: #ad33ff;
+    background-color: #DDA0DD;
 }
 
 h1 {
-
+	text-align: center;
 }
 
+/* Newbie */
+
 p1 {
-	font-family: "Times New Roman", Times, serif; font-size: 18px; color: white;
+	font-family: "Times New Roman", Times, serif; 
+	font-size: 18px; 
+	color: white;
+	text-align: center;
 }
 
 p2 {
-	font-family: "Courier New", Monospace; font-size: 18px; color: white;
+	font-family: "Courier New", Monospace; 
+	font-size: 18px; 
+	color: #800080;
+	text-align: center;
 }
 
-img {
-	height: 200px;
-    width: 50%;
+
+#uw1-resize, #uw2-resize {
+	height: auto; 
+    width: auto; 
+    max-width: 50px; 
+    max-height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Apprentice */
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin: 20px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+pre {
+	text-align: center;
+	font-size: 18px;
+	border-style: dotted;
+}
+
+/* Master */
+
+#uw4 {
+	float: right;
 	border-radius: 50px;
 }
+
+
+#uw5 {
+	border-radius: 50px;
+	float: left;
+}
+
