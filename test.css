@@ -1,5 +1,31 @@
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+ /* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+} 
+
 #Header {
 	border: solid 8px black;
+	border-style: dotted;
 	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
@@ -16,6 +42,7 @@
 
 #LeftNav {
 	border: solid 8px black;
+	border-style: double;
 	width: 400px;
 	float: left;
 	text-align: center;
@@ -24,15 +51,17 @@
 
 #Content {
 	border: solid 8px black;
+	border-radius: 8px;
 	width: 700px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
 	text-align: center;
 	padding: 15px;
+	font-stretch: expanded;
 }
 
-#Content p {
+p {
 	font-weight: bold;
 	color: white;
 	font-family: "Arial";
@@ -45,7 +74,9 @@
 	margin-right: auto;
 }
 
-#Footer h3 {
+
+
+h3 {
 	color: #FFBC00;
 	font-size: 40px;
 	font-family: "Passion One";
